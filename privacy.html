@@ -14,81 +14,110 @@
     </header>
 
     <main class="privacy-main">
-      <article class="privacy-shell">
+      <div class="privacy-shell">
         <header class="privacy-hero">
-          <p class="eyebrow">App Privacy</p>
-          <h1>プライバシーポリシー</h1>
-          <p>SunDataサービス株式会社が提供するすべてのアプリに共通して適用される、個人情報と利用データの取り扱い方針です。</p>
+          <div>
+            <p class="eyebrow">App Privacy</p>
+            <h1>プライバシー<br>ポリシー</h1>
+          </div>
+          <div class="privacy-hero-copy">
+            <p>SunDataサービス株式会社が提供する5つのアプリに共通する、個人情報と利用データの取り扱い方針です。</p>
+            <div class="privacy-meta"><span>制定 2026.08.30</span><span>更新 2026.09.06</span></div>
+          </div>
         </header>
-        <div class="privacy-content">
-          <div class="privacy-meta"><span>制定日：2026年8月30日</span><span>最終更新日：2026年9月6日</span></div>
 
-          <section class="privacy-section">
-            <h2>1. 適用対象</h2>
+        <div class="privacy-layout">
+          <aside class="privacy-toc" aria-label="ページ内目次">
+            <p>目次</p>
+            <nav>
+              <a href="#scope"><span>01</span> 適用対象</a>
+              <a href="#data"><span>02</span> データの取り扱い</a>
+              <a href="#permissions"><span>03</span> 端末機能へのアクセス</a>
+              <a href="#services"><span>04</span> 外部サービス</a>
+              <a href="#security"><span>05</span> 安全管理・保存期間</a>
+              <a href="#choices"><span>06</span> 利用者の選択</a>
+              <a href="#children"><span>07</span> お子様のプライバシー</a>
+              <a href="#changes"><span>08</span> ポリシーの変更</a>
+            </nav>
+          </aside>
+
+          <article class="privacy-content">
+
+          <section class="privacy-section" id="scope">
+            <p class="privacy-number">01</p>
+            <h2>適用対象</h2>
             <p>本ポリシーは、SunDataサービス株式会社（以下「当社」）が提供する以下のアプリ（以下総称して「対象アプリ」）に適用されます。</p>
-            <ul>
-              <li>みまもり＋（App Store上の表示名「もしもの手紙」を含みます）</li>
-              <li>パシャっと証明写真</li>
-              <li>証明写真 - ID Photo Maker</li>
-              <li>ニュースNow</li>
-              <li>SwimScope</li>
-            </ul>
-          </section>
-
-          <section class="privacy-section">
-            <h2>2. アプリごとのデータ取り扱い</h2>
-            <div class="privacy-table-wrap">
-              <table class="privacy-table">
-                <thead><tr><th>アプリ</th><th>取り扱う可能性のあるデータ</th><th>主な目的</th></tr></thead>
-                <tbody>
-                  <tr><td>みまもり＋／もしもの手紙</td><td>利用者が任意に入力する氏名、メールアドレス、電話番号、メッセージまたはメモ</td><td>安否確認、緊急連絡先への通知、利用者が選択した機能の提供</td></tr>
-                  <tr><td>パシャっと証明写真</td><td>当社による個人データの収集は行いません。選択・撮影した写真や編集内容は、機能提供のため端末内で処理されます。</td><td>証明写真の作成、編集、保存</td></tr>
-                  <tr><td>証明写真 - ID Photo Maker</td><td>当社による個人データの収集は行いません。選択・撮影した写真や編集内容は、機能提供のため端末内で処理されます。</td><td>証明写真の作成、編集、保存</td></tr>
-                  <tr><td>ニュースNow</td><td>当社による個人データの収集は行いません。お気に入りや閲覧設定等は端末内に保存される場合があります。</td><td>ニュース表示、利用設定の保持</td></tr>
-                  <tr><td>SwimScope</td><td>当社による個人データの収集は行いません。お気に入り、検索履歴、ニックネーム、目標、大会当日プラン等は端末内に保存されます。</td><td>競泳記録の検索、成長確認、利用設定の保持</td></tr>
-                </tbody>
-              </table>
+            <div class="privacy-app-list" aria-label="対象アプリ">
+              <span>みまもり＋／もしもの手紙</span><span>パシャっと証明写真</span><span>ID Photo Maker</span><span>ニュースNow</span><span>SwimScope</span>
             </div>
-            <p class="privacy-note">端末内だけに保存され、当社のサーバーへ送信されない情報は、当社が収集する個人データには含まれません。</p>
           </section>
 
-          <section class="privacy-section">
-            <h2>3. 端末機能へのアクセス</h2>
+          <section class="privacy-section" id="data">
+            <p class="privacy-number">02</p>
+            <h2>アプリごとのデータ取り扱い</h2>
+            <div class="privacy-app-grid">
+              <article class="privacy-app-card privacy-app-card-featured">
+                <div><span class="privacy-status">入力した情報を利用</span><h3>みまもり＋／もしもの手紙</h3></div>
+                <p>利用者が任意に入力する氏名、メールアドレス、電話番号、メッセージまたはメモを、安否確認や緊急連絡先への通知に利用します。</p>
+              </article>
+              <article class="privacy-app-card">
+                <div><span class="privacy-status local">端末内で処理</span><h3>パシャっと証明写真</h3></div>
+                <p>個人データは収集しません。写真や編集内容は、証明写真の作成・保存のため端末内で処理されます。</p>
+              </article>
+              <article class="privacy-app-card">
+                <div><span class="privacy-status local">端末内で処理</span><h3>証明写真 - ID Photo Maker</h3></div>
+                <p>個人データは収集しません。写真や編集内容は、証明写真の作成・保存のため端末内で処理されます。</p>
+              </article>
+              <article class="privacy-app-card">
+                <div><span class="privacy-status local">端末内に保存</span><h3>ニュースNow</h3></div>
+                <p>個人データは収集しません。お気に入りや閲覧設定等は端末内に保存される場合があります。</p>
+              </article>
+              <article class="privacy-app-card">
+                <div><span class="privacy-status local">端末内に保存</span><h3>SwimScope</h3></div>
+                <p>個人データは収集しません。お気に入り、検索履歴、ニックネーム、目標、大会当日プラン等は端末内に保存されます。</p>
+              </article>
+            </div>
+            <p class="privacy-note"><strong>端末内のデータについて</strong><br>端末内だけに保存され、当社のサーバーへ送信されない情報は、当社が収集する個人データには含まれません。</p>
+          </section>
+
+          <section class="privacy-section" id="permissions">
+            <p class="privacy-number">03</p><h2>端末機能へのアクセス</h2>
             <p>対象アプリは、機能提供のため、利用者の許可を得たうえでカメラ、写真ライブラリ、通知等の端末機能へアクセスする場合があります。アクセスは利用者が選択した機能の実行に必要な範囲に限られ、端末の設定からいつでも変更できます。</p>
           </section>
 
-          <section class="privacy-section">
-            <h2>4. 外部サービス</h2>
+          <section class="privacy-section" id="services">
+            <p class="privacy-number">04</p><h2>外部サービス</h2>
             <p>対象アプリでは、広告表示、アプリ内課金、ニュースコンテンツの表示、メール送信等のため、Apple、広告配信事業者、ニュース提供元その他の外部サービスを利用する場合があります。これらの事業者による情報の取り扱いには、各事業者のプライバシーポリシーが適用されます。</p>
             <p>アプリ内課金の決済情報はAppleが処理し、当社がクレジットカード番号等を取得することはありません。</p>
           </section>
 
-          <section class="privacy-section">
-            <h2>5. 安全管理・保存期間</h2>
+          <section class="privacy-section" id="security">
+            <p class="privacy-number">05</p><h2>安全管理・保存期間</h2>
             <p>当社が情報を取り扱う場合、不正アクセス、漏えい、滅失または毀損を防ぐため、合理的な安全管理措置を講じます。情報は利用目的の達成に必要な期間、または法令上必要な期間に限って保持し、その後適切な方法で削除します。</p>
           </section>
 
-          <section class="privacy-section">
-            <h2>6. 利用者の選択とお問い合わせ</h2>
+          <section class="privacy-section" id="choices">
+            <p class="privacy-number">06</p><h2>利用者の選択とお問い合わせ</h2>
             <p>端末内の情報は、対象アプリの削除、端末設定の変更、または対象アプリに用意された削除機能により管理できます。当社が保有する情報について、開示、訂正、削除、利用停止等を希望される場合は、下記窓口へご連絡ください。ご本人確認のうえ、適用法令に従って対応します。</p>
           </section>
 
-          <section class="privacy-section">
-            <h2>7. お子様のプライバシー</h2>
+          <section class="privacy-section" id="children">
+            <p class="privacy-number">07</p><h2>お子様のプライバシー</h2>
             <p>当社は、法令で保護者の同意が必要とされるお子様から、保護者の同意なく個人情報を故意に収集しません。該当する情報の提供に気づいた場合は、下記窓口までお知らせください。</p>
           </section>
 
-          <section class="privacy-section">
-            <h2>8. 本ポリシーの変更</h2>
+          <section class="privacy-section" id="changes">
+            <p class="privacy-number">08</p><h2>本ポリシーの変更</h2>
             <p>対象アプリの機能、利用する外部サービス、法令等の変更に応じて、本ポリシーを改定することがあります。重要な変更がある場合は、本ページまたは対象アプリ内でお知らせします。</p>
           </section>
 
-          <section class="privacy-section privacy-contact">
-            <h2>お問い合わせ窓口</h2>
-            <p>SunDataサービス株式会社<br>〒103-0016 東京都中央区日本橋小網町8-2 BIZMARKS 日本橋茅場町1F<br>メール：<a href="mailto:info@sundata.co.jp">info@sundata.co.jp</a></p>
+          <section class="privacy-contact">
+            <div><p class="eyebrow">Contact</p><h2>お問い合わせ窓口</h2></div>
+            <p>SunDataサービス株式会社<br>〒103-0016 東京都中央区日本橋小網町8-2<br>BIZMARKS 日本橋茅場町1F<br><a href="mailto:info@sundata.co.jp">info@sundata.co.jp →</a></p>
           </section>
+          </article>
         </div>
-      </article>
+      </div>
     </main>
     <footer class="site-footer"><p>© 2026 SunDataサービス株式会社</p><div class="footer-links"><a href="index.html">会社サイトへ</a></div></footer>
   </body>
